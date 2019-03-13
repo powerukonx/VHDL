@@ -1,0 +1,12 @@
+#GCK3
+NET "p_i_clk"   		LOC = "P1" | BUFG = CLK ;
+NET "p_i_reset"  	LOC = "P3"; 
+
+NET "p_o_hsync"   	LOC = "P5";
+NET "p_o_vsync"   	LOC = "P6";
+NET "p_o_red<0>"		LOC = "P7";
+NET "p_o_red<1>"		LOC = "P8";
+NET "p_o_green<0>"	LOC = "P14";
+NET "p_o_green<1>"	LOC = "P16";
+NET "p_o_blue<0>"	LOC = "P20";
+NET "p_o_blue<1>"	LOC = "P21";
